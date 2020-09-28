@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DDAE7302522AB9A00780E5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAE72F2522AB9A00780E5F /* AppDelegate.swift */; };
+		4DDAE7322522AB9A00780E5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAE7312522AB9A00780E5F /* SceneDelegate.swift */; };
+		4DDAE7342522AB9A00780E5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAE7332522AB9A00780E5F /* ContentView.swift */; };
+		4DDAE7362522AB9F00780E5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDAE7352522AB9F00780E5F /* Assets.xcassets */; };
+		4DDAE7392522AB9F00780E5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDAE7382522AB9F00780E5F /* Preview Assets.xcassets */; };
+		4DDAE73C2522AB9F00780E5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDAE73A2522AB9F00780E5F /* LaunchScreen.storyboard */; };
+		4DDAE7472522AB9F00780E5F /* Contacts_List_with_Real_Time_Chat_ApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAE7462522AB9F00780E5F /* Contacts_List_with_Real_Time_Chat_ApplicationTests.swift */; };
+		4DDAE7522522ABA000780E5F /* Contacts_List_with_Real_Time_Chat_ApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAE7512522ABA000780E5F /* Contacts_List_with_Real_Time_Chat_ApplicationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DDAE7432522AB9F00780E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DDAE7242522AB9A00780E5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DDAE72B2522AB9A00780E5F;
+			remoteInfo = "Contacts List with Real Time Chat Application";
+		};
+		4DDAE74E2522AB9F00780E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DDAE7242522AB9A00780E5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DDAE72B2522AB9A00780E5F;
+			remoteInfo = "Contacts List with Real Time Chat Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DDAE72C2522AB9A00780E5F /* Contacts List with Real Time Chat Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contacts List with Real Time Chat Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDAE72F2522AB9A00780E5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DDAE7312522AB9A00780E5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4DDAE7332522AB9A00780E5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DDAE7352522AB9F00780E5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DDAE7382522AB9F00780E5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DDAE73B2522AB9F00780E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DDAE73D2522AB9F00780E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DDAE7422522AB9F00780E5F /* Contacts List with Real Time Chat ApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Contacts List with Real Time Chat ApplicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDAE7462522AB9F00780E5F /* Contacts_List_with_Real_Time_Chat_ApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts_List_with_Real_Time_Chat_ApplicationTests.swift; sourceTree = "<group>"; };
+		4DDAE7482522AB9F00780E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DDAE74D2522AB9F00780E5F /* Contacts List with Real Time Chat ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Contacts List with Real Time Chat ApplicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDAE7512522ABA000780E5F /* Contacts_List_with_Real_Time_Chat_ApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts_List_with_Real_Time_Chat_ApplicationUITests.swift; sourceTree = "<group>"; };
+		4DDAE7532522ABA000780E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DDAE7292522AB9A00780E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAE73F2522AB9F00780E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAE74A2522AB9F00780E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DDAE7232522AB9A00780E5F = {
+			isa = PBXGroup;
+			children = (
+				4DDAE72E2522AB9A00780E5F /* Contacts List with Real Time Chat Application */,
+				4DDAE7452522AB9F00780E5F /* Contacts List with Real Time Chat ApplicationTests */,
+				4DDAE7502522AB9F00780E5F /* Contacts List with Real Time Chat ApplicationUITests */,
+				4DDAE72D2522AB9A00780E5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DDAE72D2522AB9A00780E5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DDAE72C2522AB9A00780E5F /* Contacts List with Real Time Chat Application.app */,
+				4DDAE7422522AB9F00780E5F /* Contacts List with Real Time Chat ApplicationTests.xctest */,
+				4DDAE74D2522AB9F00780E5F /* Contacts List with Real Time Chat ApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DDAE72E2522AB9A00780E5F /* Contacts List with Real Time Chat Application */ = {
+			isa = PBXGroup;
+			children = (
+				4DDAE72F2522AB9A00780E5F /* AppDelegate.swift */,
+				4DDAE7312522AB9A00780E5F /* SceneDelegate.swift */,
+				4DDAE7332522AB9A00780E5F /* ContentView.swift */,
+				4DDAE7352522AB9F00780E5F /* Assets.xcassets */,
+				4DDAE73A2522AB9F00780E5F /* LaunchScreen.storyboard */,
+				4DDAE73D2522AB9F00780E5F /* Info.plist */,
+				4DDAE7372522AB9F00780E5F /* Preview Content */,
+			);
+			path = "Contacts List with Real Time Chat Application";
+			sourceTree = "<group>";
+		};
+		4DDAE7372522AB9F00780E5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4DDAE7382522AB9F00780E5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DDAE7452522AB9F00780E5F /* Contacts List with Real Time Chat ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DDAE7462522AB9F00780E5F /* Contacts_List_with_Real_Time_Chat_ApplicationTests.swift */,
+				4DDAE7482522AB9F00780E5F /* Info.plist */,
+			);
+			path = "Contacts List with Real Time Chat ApplicationTests";
+			sourceTree = "<group>";
+		};
+		4DDAE7502522AB9F00780E5F /* Contacts List with Real Time Chat ApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DDAE7512522ABA000780E5F /* Contacts_List_with_Real_Time_Chat_ApplicationUITests.swift */,
+				4DDAE7532522ABA000780E5F /* Info.plist */,
+			);
+			path = "Contacts List with Real Time Chat ApplicationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DDAE72B2522AB9A00780E5F /* Contacts List with Real Time Chat Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDAE7562522ABA000780E5F /* Build configuration list for PBXNativeTarget "Contacts List with Real Time Chat Application" */;
+			buildPhases = (
+				4DDAE7282522AB9A00780E5F /* Sources */,
+				4DDAE7292522AB9A00780E5F /* Frameworks */,
+				4DDAE72A2522AB9A00780E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Contacts List with Real Time Chat Application";
+			productName = "Contacts List with Real Time Chat Application";
+			productReference = 4DDAE72C2522AB9A00780E5F /* Contacts List with Real Time Chat Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DDAE7412522AB9F00780E5F /* Contacts List with Real Time Chat ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDAE7592522ABA000780E5F /* Build configuration list for PBXNativeTarget "Contacts List with Real Time Chat ApplicationTests" */;
+			buildPhases = (
+				4DDAE73E2522AB9F00780E5F /* Sources */,
+				4DDAE73F2522AB9F00780E5F /* Frameworks */,
+				4DDAE7402522AB9F00780E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DDAE7442522AB9F00780E5F /* PBXTargetDependency */,
+			);
+			name = "Contacts List with Real Time Chat ApplicationTests";
+			productName = "Contacts List with Real Time Chat ApplicationTests";
+			productReference = 4DDAE7422522AB9F00780E5F /* Contacts List with Real Time Chat ApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DDAE74C2522AB9F00780E5F /* Contacts List with Real Time Chat ApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DDAE75C2522ABA000780E5F /* Build configuration list for PBXNativeTarget "Contacts List with Real Time Chat ApplicationUITests" */;
+			buildPhases = (
+				4DDAE7492522AB9F00780E5F /* Sources */,
+				4DDAE74A2522AB9F00780E5F /* Frameworks */,
+				4DDAE74B2522AB9F00780E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DDAE74F2522AB9F00780E5F /* PBXTargetDependency */,
+			);
+			name = "Contacts List with Real Time Chat ApplicationUITests";
+			productName = "Contacts List with Real Time Chat ApplicationUITests";
+			productReference = 4DDAE74D2522AB9F00780E5F /* Contacts List with Real Time Chat ApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DDAE7242522AB9A00780E5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4DDAE72B2522AB9A00780E5F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					4DDAE7412522AB9F00780E5F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4DDAE72B2522AB9A00780E5F;
+					};
+					4DDAE74C2522AB9F00780E5F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4DDAE72B2522AB9A00780E5F;
+					};
+				};
+			};
+			buildConfigurationList = 4DDAE7272522AB9A00780E5F /* Build configuration list for PBXProject "Contacts List with Real Time Chat Application" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DDAE7232522AB9A00780E5F;
+			productRefGroup = 4DDAE72D2522AB9A00780E5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DDAE72B2522AB9A00780E5F /* Contacts List with Real Time Chat Application */,
+				4DDAE7412522AB9F00780E5F /* Contacts List with Real Time Chat ApplicationTests */,
+				4DDAE74C2522AB9F00780E5F /* Contacts List with Real Time Chat ApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DDAE72A2522AB9A00780E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAE73C2522AB9F00780E5F /* LaunchScreen.storyboard in Resources */,
+				4DDAE7392522AB9F00780E5F /* Preview Assets.xcassets in Resources */,
+				4DDAE7362522AB9F00780E5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAE7402522AB9F00780E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAE74B2522AB9F00780E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DDAE7282522AB9A00780E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAE7302522AB9A00780E5F /* AppDelegate.swift in Sources */,
+				4DDAE7322522AB9A00780E5F /* SceneDelegate.swift in Sources */,
+				4DDAE7342522AB9A00780E5F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAE73E2522AB9F00780E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAE7472522AB9F00780E5F /* Contacts_List_with_Real_Time_Chat_ApplicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DDAE7492522AB9F00780E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDAE7522522ABA000780E5F /* Contacts_List_with_Real_Time_Chat_ApplicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DDAE7442522AB9F00780E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DDAE72B2522AB9A00780E5F /* Contacts List with Real Time Chat Application */;
+			targetProxy = 4DDAE7432522AB9F00780E5F /* PBXContainerItemProxy */;
+		};
+		4DDAE74F2522AB9F00780E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DDAE72B2522AB9A00780E5F /* Contacts List with Real Time Chat Application */;
+			targetProxy = 4DDAE74E2522AB9F00780E5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DDAE73A2522AB9F00780E5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DDAE73B2522AB9F00780E5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DDAE7542522ABA000780E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DDAE7552522ABA000780E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DDAE7572522ABA000780E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Contacts List with Real Time Chat Application/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Contacts List with Real Time Chat Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uaslp.Contacts-List-with-Real-Time-Chat-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DDAE7582522ABA000780E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Contacts List with Real Time Chat Application/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Contacts List with Real Time Chat Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uaslp.Contacts-List-with-Real-Time-Chat-Application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DDAE75A2522ABA000780E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Contacts List with Real Time Chat ApplicationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uaslp.Contacts-List-with-Real-Time-Chat-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contacts List with Real Time Chat Application.app/Contacts List with Real Time Chat Application";
+			};
+			name = Debug;
+		};
+		4DDAE75B2522ABA000780E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Contacts List with Real Time Chat ApplicationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uaslp.Contacts-List-with-Real-Time-Chat-ApplicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contacts List with Real Time Chat Application.app/Contacts List with Real Time Chat Application";
+			};
+			name = Release;
+		};
+		4DDAE75D2522ABA000780E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Contacts List with Real Time Chat ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uaslp.Contacts-List-with-Real-Time-Chat-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Contacts List with Real Time Chat Application";
+			};
+			name = Debug;
+		};
+		4DDAE75E2522ABA000780E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Contacts List with Real Time Chat ApplicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uaslp.Contacts-List-with-Real-Time-Chat-ApplicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Contacts List with Real Time Chat Application";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DDAE7272522AB9A00780E5F /* Build configuration list for PBXProject "Contacts List with Real Time Chat Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDAE7542522ABA000780E5F /* Debug */,
+				4DDAE7552522ABA000780E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDAE7562522ABA000780E5F /* Build configuration list for PBXNativeTarget "Contacts List with Real Time Chat Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDAE7572522ABA000780E5F /* Debug */,
+				4DDAE7582522ABA000780E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDAE7592522ABA000780E5F /* Build configuration list for PBXNativeTarget "Contacts List with Real Time Chat ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDAE75A2522ABA000780E5F /* Debug */,
+				4DDAE75B2522ABA000780E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DDAE75C2522ABA000780E5F /* Build configuration list for PBXNativeTarget "Contacts List with Real Time Chat ApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DDAE75D2522ABA000780E5F /* Debug */,
+				4DDAE75E2522ABA000780E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DDAE7242522AB9A00780E5F /* Project object */;
+}
