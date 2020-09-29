@@ -12,6 +12,7 @@ struct Login: View {
     @State private var emailAddress = ""
     @State private var password = ""
 
+    @State private var selection: String? = nil
     
     var body: some View {
         ZStack {
@@ -35,8 +36,12 @@ struct Login: View {
                     .padding(.all, 5)
                     .foregroundColor(.gray)
                     
+                    NavigationLink("", destination: ContactsList(), tag: "Authentication", selection: $selection).hidden()
+                    
                     Button("Login") {
-                       
+                        Authentication.instance.singIn(emailAddress, password){
+                            selection = "Authentication"
+                        }
                     }
                     .padding(.all, 13)
                     .background(Color(red: 0.2, green: 0.5, blue: 0.5))
