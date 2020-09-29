@@ -12,9 +12,9 @@ struct Logo: View {
         HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 20) {
             //Spacer()
             Circle()
-                .padding(.horizontal)
+                //.padding(.horizontal)
                 .foregroundColor(Color(red: 0.2, green: 0.5, blue: 0.5))
-                .frame(minWidth: 20, idealWidth: 100, maxWidth: UIScreen.main.bounds.width/3, minHeight: 20, idealHeight: 100, maxHeight: UIScreen.main.bounds.height/4, alignment: .center)
+                .frame(minWidth: 20, idealWidth: 50, maxWidth: UIScreen.main.bounds.width/3, minHeight: 20, idealHeight: 50, maxHeight: UIScreen.main.bounds.height/4, alignment: .center)
             //Spacer()
         }
     }

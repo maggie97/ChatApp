@@ -3,13 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4AB2014C7D734460424C8D13 /* Pods_Contacts_List_with_Real_Time_Chat_ApplicationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93B16F0311530C232B0EA56 /* Pods_Contacts_List_with_Real_Time_Chat_ApplicationTests.framework */; };
+		4D94C2AF2523D2DA00933313 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D94C2AE2523D2DA00933313 /* Authentication.swift */; };
 		4DA0114B2522B95F00A096D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DA0114A2522B95F00A096D1 /* GoogleService-Info.plist */; };
 		4DA011562522B9BB00A096D1 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA011552522B9BB00A096D1 /* Logo.swift */; };
+		4DA011832522D9FA00A096D1 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA011822522D9FA00A096D1 /* Register.swift */; };
+		4DA011882522DF9600A096D1 /* ContactsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA011872522DF9600A096D1 /* ContactsList.swift */; };
+		4DA0118D2522ECEF00A096D1 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA0118C2522ECEF00A096D1 /* AvatarView.swift */; };
+		4DA011922522ED9D00A096D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA011912522ED9D00A096D1 /* User.swift */; };
 		4DDAE7302522AB9A00780E5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAE72F2522AB9A00780E5F /* AppDelegate.swift */; };
 		4DDAE7322522AB9A00780E5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAE7312522AB9A00780E5F /* SceneDelegate.swift */; };
 		4DDAE7342522AB9A00780E5F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDAE7332522AB9A00780E5F /* Login.swift */; };
@@ -41,8 +46,13 @@
 
 /* Begin PBXFileReference section */
 		2C59AB22C9FB335FB3AE38E4 /* Pods_Contacts_List_with_Real_Time_Chat_Application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Contacts_List_with_Real_Time_Chat_Application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D94C2AE2523D2DA00933313 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
 		4DA0114A2522B95F00A096D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4DA011552522B9BB00A096D1 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
+		4DA011822522D9FA00A096D1 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		4DA011872522DF9600A096D1 /* ContactsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsList.swift; sourceTree = "<group>"; };
+		4DA0118C2522ECEF00A096D1 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		4DA011912522ED9D00A096D1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4DDAE72C2522AB9A00780E5F /* Contacts List with Real Time Chat Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contacts List with Real Time Chat Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDAE72F2522AB9A00780E5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DDAE7312522AB9A00780E5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				4DDAE7332522AB9A00780E5F /* Login.swift */,
+				4DA011822522D9FA00A096D1 /* Register.swift */,
+				4DA011872522DF9600A096D1 /* ContactsList.swift */,
+				4DA0118C2522ECEF00A096D1 /* AvatarView.swift */,
 				4DA011552522B9BB00A096D1 /* Logo.swift */,
 			);
 			path = View;
@@ -117,6 +130,8 @@
 		4DA011502522B97500A096D1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4DA011912522ED9D00A096D1 /* User.swift */,
+				4D94C2AE2523D2DA00933313 /* Authentication.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -203,7 +218,6 @@
 				4DEBA99BBD6B906F008E508E /* Pods-Contacts List with Real Time Chat ApplicationTests.debug.xcconfig */,
 				6B0EB43993819399D3AB9D56 /* Pods-Contacts List with Real Time Chat ApplicationTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -448,8 +462,13 @@
 			files = (
 				4DDAE7302522AB9A00780E5F /* AppDelegate.swift in Sources */,
 				4DDAE7322522AB9A00780E5F /* SceneDelegate.swift in Sources */,
+				4DA0118D2522ECEF00A096D1 /* AvatarView.swift in Sources */,
+				4DA011882522DF9600A096D1 /* ContactsList.swift in Sources */,
+				4DA011922522ED9D00A096D1 /* User.swift in Sources */,
 				4DA011562522B9BB00A096D1 /* Logo.swift in Sources */,
 				4DDAE7342522AB9A00780E5F /* Login.swift in Sources */,
+				4DA011832522D9FA00A096D1 /* Register.swift in Sources */,
+				4D94C2AF2523D2DA00933313 /* Authentication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,7 +566,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -602,7 +621,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
