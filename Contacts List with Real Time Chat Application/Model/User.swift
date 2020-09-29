@@ -7,14 +7,15 @@
 
 import Foundation
 
-struct User: Codable{
+struct User: Codable, Identifiable{
+    var id: String = UUID().uuidString
     let firstName: String
-    let lastName: String?
+    let lastName: String
     let email: String
     let contactNumber: String
-    let birthday: Date?
+    let birthday: Date
     
-    let avatarImage: String?
+    let avatarImage: String
     
     enum CodingKeys: String, CodingKey{
         case firstName, lastName, email, contactNumber, birthday,avatarImage

@@ -7,9 +7,9 @@
 
 import Foundation
 import Firebase
-
 import FirebaseCore
 import FirebaseFirestore
+
 //import FirebaseFirestoreSwift
 
 class Authentication{
@@ -27,7 +27,8 @@ class Authentication{
             print(authResult ?? "nananany ")
             
             do {
-               // try db.collection("users").addDocument(data: user)
+                //try db.collection("users").document("\(user.email)").setData(user)
+            }catch let error{
                 print("Error writing city to Firestore: \(error)")
             }
         }
@@ -39,11 +40,7 @@ class Authentication{
             guard authResult != nil else { return }
             success()
             print(authResult ?? "nananany ")
-            
-            do {
-               // try db.collection("users").addDocument(data: user)
-                print("Error writing city to Firestore: \(error)")
-            }
         }
     }
 }
+

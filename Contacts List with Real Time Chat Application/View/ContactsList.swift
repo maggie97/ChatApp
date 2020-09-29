@@ -14,6 +14,7 @@ struct ContactsList: View {
                 Contacts(imageString: "foto3")
             }
         }.navigationBarTitle("Contactos")
+        .navigationBarHidden(true)
     }
 }
 
@@ -23,7 +24,7 @@ struct Contacts: View {
             HStack{
                 AvatarView(image: imageString, size: 70)
                 VStack (alignment: .leading) {
-                    Text("Last Name Friend").font(.title).bold()
+                    Text("Last Name Friend").bold()
                     Text("First Name")
                     Text("Email")
                 }
